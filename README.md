@@ -1,8 +1,8 @@
-<p align="center">
-    <a href="https://github.com/caemor/epd-waveshare"><img src="https://github.com/caemor/epd-waveshare/actions/workflows/rust.yml/badge.svg" alt="Github CI"></a>
-    <a href="https://crates.io/crates/epd-waveshare"><img src="https://img.shields.io/crates/v/epd-waveshare.svg" alt="Crates.io"></a>
-    <a href="https://docs.rs/epd-waveshare"><img src="https://docs.rs/epd-waveshare/badge.svg" alt="Docs.rs"></a>
-</p>
+# Fork Notes
+
+This is a fork adding very dirty support for the display used by the LillyGo T5 V 2.3 (GDEH0213B73).
+The display driver is based on the 2.13" driver (some unknown older version) and https://github.com/martinberlin/CalEPD.
+This was only pushed to have a working version available and needs cleanup or a rewrite.
 
 # EPD Driver
 
